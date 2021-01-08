@@ -38,23 +38,11 @@ Above in the execution context, creation phase, `var foo` will be processed and 
 ```
 var favouriteFood = "grapes";
 
-  
-
 var foodThoughts = function() {
-
-console.log("Original favourite food: " + favouriteFood);
-
-  
-
-var favouriteFood = "sushi";
-
-  
-
-console.log("New favourite food: " + favouriteFood);
-
+     console.log("Original favourite food: " + favouriteFood) // undefined
+     var favouriteFood = "sushi";
+     console.log("New favourite food: " + favouriteFood) // 'sushi'
 }
-
-  
 
 foodThoughts()
 ```
@@ -100,6 +88,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MjEwNTk1LDYwMjY2ODIsMzIzOTIyNz
-gyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMj
+c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+
 -->
