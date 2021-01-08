@@ -33,7 +33,31 @@ function bar(){
 };
 const oop = () => 'oop';
 ```
-Above in the creation time `var foo` will be processed and a reference to `foo` will be created in memory with `undefined`
+Above in the execution context, creation phase, `var foo` will be processed and a reference to `foo` will be created in memory with `undefined`
+
+```
+var favouriteFood = "grapes";
+
+  
+
+var foodThoughts = function() {
+
+console.log("Original favourite food: " + favouriteFood);
+
+  
+
+var favouriteFood = "sushi";
+
+  
+
+console.log("New favourite food: " + favouriteFood);
+
+}
+
+  
+
+foodThoughts()
+```
 
 ## Strict Mode
 
@@ -76,7 +100,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTM5ODM0OSw2MDI2NjgyLDMyMzkyMj
-c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
-
+eyJoaXN0b3J5IjpbNjE3MjEwNTk1LDYwMjY2ODIsMzIzOTIyNz
+gyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
 -->
