@@ -79,6 +79,17 @@ String + String -> Concatenation
   return ((n % m) + m) % m;
 }
  ```
+ ### Function Expression & Declaration
+ ```
+ // Function Expression
+ const foo = () = {
+	return 'foo';
+}
+ // Function Declaration
+ const foo = () = {
+	return 'foo';
+}
+ ```
 
 this
 bind
@@ -88,7 +99,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMj
-c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
-
+eyJoaXN0b3J5IjpbLTE3ODQ1ODIzMzgsMTEzMzY0MjEzMSw2MD
+I2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0
+ODYzMzI2OTVdfQ==
 -->
