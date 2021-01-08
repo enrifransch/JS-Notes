@@ -40,10 +40,10 @@ const oop = () => 'oop';
 
 - Makes debugging easier. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions, alerting you sooner to problems in your code and directing you more quickly to their source.
 - Prevents accidental globals. Without strict mode, assigning a value to an undeclared variable automatically creates a global variable with that name. 
-- Eliminates 1 coercion. Without strict mode, a reference to a **this** value of null or undefined is automatically coerced to the global. In strict mode, referencing a a this value of null or undefined throws an error.
+- Eliminates `this` coercion. Without strict mode, a reference to a `this` value of null or undefined is automatically coerced to the global. In strict mode, referencing a a this value of null or undefined throws an error.
 - Disallows duplicate parameter values. Strict mode throws an error when it detects a duplicate named argument for a function (e.g., function foo(val1, val2, val1){}), thereby catching what is almost certainly a bug in your code that you might otherwise have wasted lots of time tracking down.
--Makes eval() safer. There are some differences in the way **eval()** behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an eval() statement are not created in the containing scope (they are created in the containing scope in non-strict mode, which can also be a common source of problems).
-- Throws error on invalid usage of **delete**.  
+-Makes eval() safer. There are some differences in the way `eval()` behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an eval() statement are not created in the containing scope (they are created in the containing scope in non-strict mode, which can also be a common source of problems).
+- Throws error on invalid usage of `delete`.  
 
 ## Misc
 ### Associativity rule 
@@ -75,6 +75,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyOTkzOTMzLDMyMzkyMjc4MiwyMjU0Mj
-I0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyND
+IzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
 -->
