@@ -1,4 +1,4 @@
-# **JS Notes**
+# JS Notes
 
 ### Closures
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
@@ -17,7 +17,7 @@ function bar(){
 
 ## Associativity rule 
 
->Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
+Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
 
 Number + Number -> Addition
 Boolean + Number -> Addition
@@ -27,6 +27,8 @@ String + Boolean -> Concatenation
 String + String -> Concatenation
 
 ## Strict Mode
+
+>The short and most important answer here is that use strict is a way to voluntarily enforce stricter parsing and error handling on your JavaScript code at runtime. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions. In general, it is a good practice.
 
 - Makes debugging easier. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions, alerting you sooner to problems in your code and directing you more quickly to their source.
 - Prevents accidental globals. Without strict mode, assigning a value to an undeclared variable automatically creates a global variable with that name. 
@@ -45,6 +47,14 @@ String + String -> Concatenation
   return ((n % m) + m) % m;
 }
  ```
+
+this
+bind
+call
+apply
+generator
+eval
+prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTA1OTgwLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTE1MDQ2MjQsMTQ4NjMzMjY5NV19
 -->
