@@ -14,7 +14,7 @@ var foo = function(){
 function bar(){ 
      return 'bar'
 };
-// const oop = 'oo
+
 ```
 
 ## Hoisting
@@ -22,15 +22,14 @@ Variables declared using the `var` keyword or functions declared using the `func
 ```
 foo() // undefined
 bar() // 'bar
-// Defined at run-time
+oop
 var foo = function(){ 
     return 'foo'
 }; 
-
-// Defined at parse time
 function bar(){ 
      return 'bar'
 };
+const oop = () => 'oop';
 ```
 
 ## Strict Mode
@@ -74,6 +73,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDMzMzk1OCwyMjU0MjI0MjMsNTQyMj
+eyJoaXN0b3J5IjpbLTQxOTA2MTYxMSwyMjU0MjI0MjMsNTQyMj
 E5MDczLDE0ODYzMzI2OTVdfQ==
 -->
