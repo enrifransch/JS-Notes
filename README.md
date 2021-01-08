@@ -17,17 +17,6 @@ function bar(){
 
 ## Hoisting
 
-## Associativity rule 
-
-Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
-
-Number + Number -> Addition
-Boolean + Number -> Addition
-Boolean + Boolean -> Addition
-Number + String -> Concatenation
-String + Boolean -> Concatenation
-String + String -> Concatenation
-
 ## Strict Mode
 
 >The short and most important answer here is that use strict is a way to voluntarily enforce stricter parsing and error handling on your JavaScript code at runtime. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions. In general, it is a good practice.
@@ -40,6 +29,17 @@ String + String -> Concatenation
 - Throws error on invalid usage of **delete**.  
 
 ## Misc
+### Associativity rule 
+
+Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
+
+Number + Number -> Addition
+Boolean + Number -> Addition
+Boolean + Boolean -> Addition
+Number + String -> Concatenation
+String + Boolean -> Concatenation
+String + String -> Concatenation
+
 ###  Check if object is array
  Object.prototype.toString.call()
  Array.isArray
@@ -58,5 +58,5 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIzNzQwMTAsMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
 -->
