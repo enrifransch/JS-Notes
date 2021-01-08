@@ -4,8 +4,24 @@
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
 
 ```
-foo() // 'ba
-bar()
+foo() // undefined
+bar() // 'bar
+// Defined at run-time
+var foo = function(){ 
+    return 'foo'
+}; 
+// Defined at parse time
+function bar(){ 
+     return 'bar'
+};
+// const oop = 'oo
+```
+
+## Hoisting
+Variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope.
+```
+foo() // undefined
+bar() // 'bar
 // Defined at run-time
 var foo = function(){ 
     return 'foo'
@@ -16,8 +32,6 @@ function bar(){
      return 'bar'
 };
 ```
-
-## Hoisting
 
 ## Strict Mode
 
@@ -60,6 +74,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYxMTQ5MTEsMjI1NDIyNDIzLDU0Mj
-IxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbMTI5NDMzMzk1OCwyMjU0MjI0MjMsNTQyMj
+E5MDczLDE0ODYzMzI2OTVdfQ==
 -->
