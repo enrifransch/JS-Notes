@@ -18,7 +18,7 @@ function bar(){
 ```
 
 ## Hoisting
-Variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope, the global scope. 
+In the execution context variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope, the global scope.  
 >Global scope for: Browser (`window`) and Node (`global`)
 >Declaring a variable with `let` or `const` does not add it to the global object.
 ```
@@ -33,6 +33,7 @@ function bar(){
 };
 const oop = () => 'oop';
 ```
+Above `var foo` will be processed and a reference to `foo` will be created in memory with `undefined`
 
 ## Strict Mode
 
@@ -75,6 +76,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyND
-IzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbMTY1NjI0OTQ3NSw2MDI2NjgyLDMyMzkyMj
+c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+
 -->
