@@ -4,7 +4,7 @@
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
 
 ```
-foo()
+foo() // 'ba
 bar()
 // Defined at run-time
 var foo = function(){ 
@@ -60,6 +60,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2Mz
-MyNjk1XX0=
+eyJoaXN0b3J5IjpbLTE0MjYxMTQ5MTEsMjI1NDIyNDIzLDU0Mj
+IxOTA3MywxNDg2MzMyNjk1XX0=
 -->
