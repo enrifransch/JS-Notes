@@ -15,11 +15,7 @@ function bar(){
 };
 ```
 
-### Check if object is array
- Object.prototype.toString.call()
- Array.isArray
-
-### Associativity rule 
+## Associativity rule 
 
 >Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
 
@@ -30,7 +26,7 @@ Number + String -> Concatenation
 String + Boolean -> Concatenation
 String + String -> Concatenation
 
-### Strict Mode
+## Strict Mode
 
 - Makes debugging easier. Code errors that would otherwise have been ignored or would have failed silently will now generate errors or throw exceptions, alerting you sooner to problems in your code and directing you more quickly to their source.
 - Prevents accidental globals. Without strict mode, assigning a value to an undeclared variable automatically creates a global variable with that name. 
@@ -39,8 +35,16 @@ String + String -> Concatenation
 -Makes eval() safer. There are some differences in the way **eval()** behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an eval() statement are not created in the containing scope (they are created in the containing scope in non-strict mode, which can also be a common source of problems).
 - Throws error on invalid usage of **delete**.  
 
-
-
+## Misc
+###  Check if object is array
+ Object.prototype.toString.call()
+ Array.isArray
+ ### Get Modulus of negative
+ ```
+ function mod(n, m) {
+  return ((n % m) + m) % m;
+}
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbNjk4MTA1OTgwLDE0ODYzMzI2OTVdfQ==
 -->
