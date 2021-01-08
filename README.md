@@ -18,11 +18,12 @@ function bar(){
 ```
 
 ## Hoisting
-Variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope.
+Variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope, the global scope. 
+>Global scope for: Browser (`window`) and Node (`global`)
 ```
 foo() // undefined
 bar() // 'bar
-oop
+oop() // ReferenceError: Cannot access 'oop' before initialization
 var foo = function(){ 
     return 'foo'
 }; 
@@ -73,6 +74,6 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTA2MTYxMSwyMjU0MjI0MjMsNTQyMj
-E5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzU4MDAzMDMsMjI1NDIyNDIzLDU0Mj
+IxOTA3MywxNDg2MzMyNjk1XX0=
 -->
