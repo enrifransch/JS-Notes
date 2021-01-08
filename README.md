@@ -86,7 +86,7 @@ String + String -> Concatenation
 	return 'foo';
 }
  // Function Declaration
- const foo = () = {
+function foo() {
 	return 'foo';
 }
  ```
@@ -99,7 +99,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ1ODIzMzgsMTEzMzY0MjEzMSw2MD
+eyJoaXN0b3J5IjpbLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MD
 I2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0
 ODYzMzI2OTVdfQ==
 -->
