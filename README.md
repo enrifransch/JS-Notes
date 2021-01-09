@@ -2,6 +2,14 @@
 
 ## this
 `this` is the object that a function is property of
+```
+const obj = {
+	foo: 'bar'
+	callMe() {
+		return this
+	}
+}
+```
 
 ## Closures
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
@@ -113,8 +121,8 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODQ0MzY0OCw3NTk0Nzc3ODIsLTcyMT
-c3MjA5MSwtNDI3ODYyODM0LC0xMTQ1NzAwMTA5LDExMzM2NDIx
-MzEsNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyNDIzLDU0MjIxOT
-A3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbLTM2MTA3ODM4MywtNTI4NDQzNjQ4LDc1OT
+Q3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAx
+MDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0Mj
+I0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
 -->
