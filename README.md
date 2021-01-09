@@ -1,5 +1,7 @@
 # JS Notes
 
+##
+
 ## Closures
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
 
@@ -110,8 +112,8 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NDc3NzgyLC03MjE3NzIwOTEsLTQyNz
-g2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMjY2ODIs
-MzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMj
-Y5NV19
+eyJoaXN0b3J5IjpbLTEwNTMyNzYwNzAsNzU5NDc3NzgyLC03Mj
+E3NzIwOTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQy
+MTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMT
+kwNzMsMTQ4NjMzMjY5NV19
 -->
