@@ -4,11 +4,12 @@
 `this` is the object that a function is property of
 ```
 const obj = {
-	foo: 'bar'
+	foo: 'bar',
 	callMe() {
-		return this
+		return this;
 	}
 }
+obj.callMe() // obj
 ```
 
 ## Closures
@@ -121,7 +122,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTA3ODM4MywtNTI4NDQzNjQ4LDc1OT
+eyJoaXN0b3J5IjpbLTE1MjI4OTQ3NSwtNTI4NDQzNjQ4LDc1OT
 Q3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAx
 MDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0Mj
 I0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
