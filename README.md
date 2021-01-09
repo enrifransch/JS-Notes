@@ -18,7 +18,7 @@ function bar(){
 ```
 
 ## Hoisting
-Context variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope, the global scope.  
+Context variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope or `lexical scope`, the global scope.  
 >Global scope for: Browser (`window`) and Node (`global`)
 >Declaring a variable with `let` or `const` does not add it to the global object.
 ```
@@ -99,7 +99,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MD
-I2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0
-ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbLTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMT
+MzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1
+NDIyMTkwNzMsMTQ4NjMzMjY5NV19
 -->
