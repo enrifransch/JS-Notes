@@ -1,6 +1,7 @@
 # JS Notes
 
-##
+## this
+`this` is the object that a function is property of
 
 ## Closures
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
@@ -112,8 +113,8 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTMyNzYwNzAsNzU5NDc3NzgyLC03Mj
-E3NzIwOTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQy
-MTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMT
-kwNzMsMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbLTUyODQ0MzY0OCw3NTk0Nzc3ODIsLTcyMT
+c3MjA5MSwtNDI3ODYyODM0LC0xMTQ1NzAwMTA5LDExMzM2NDIx
+MzEsNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyNDIzLDU0MjIxOT
+A3MywxNDg2MzMyNjk1XX0=
 -->
