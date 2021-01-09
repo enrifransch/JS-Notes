@@ -66,6 +66,7 @@ weird() // 'yes'
 - Throws error on invalid usage of `delete`.  
 
 ## Misc
+### IIFE (Immediatly Invo)
 ### Associativity rule 
 
 Operators with the same precedence are processed based on the associativity property of the operator. The associativity of the assignment operator is Right to Left.
@@ -106,7 +107,8 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMT
-Q1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIs
-MjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbODA2NzcyNjQzLC03MjE3NzIwOTEsLTQyNz
+g2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMjY2ODIs
+MzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMj
+Y5NV19
 -->
