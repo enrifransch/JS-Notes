@@ -9,7 +9,7 @@ const obj = {
 		return this;
 	}
 }
-obj.callMe() // obj
+obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 ```
 
 ## Closures
@@ -122,8 +122,8 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI4OTQ3NSwtNTI4NDQzNjQ4LDc1OT
-Q3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAx
-MDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0Mj
-I0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbMTEzNjQ3MTYzLC01Mjg0NDM2NDgsNzU5ND
+c3NzgyLC03MjE3NzIwOTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEw
+OSwxMTMzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMj
+QyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
 -->
