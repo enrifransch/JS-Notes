@@ -113,6 +113,8 @@ function foo() {
 	return 'foo';
 }
  ```
+ ### Function Currying
+ **currying** is the technique of converting a function that takes multiple [arguments](https://en.wikipedia.org/wiki/Parameter_(computer_science) "Parameter (computer science)") into a sequence of functions that each take a single argument.
 
 this
 bind
@@ -122,8 +124,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjQ3MTYzLC01Mjg0NDM2NDgsNzU5ND
-c3NzgyLC03MjE3NzIwOTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEw
-OSwxMTMzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMj
-QyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbMzE5MzE3NzIwLDExMzY0NzE2MywtNTI4ND
+QzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQs
+LTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMj
+c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+
 -->
