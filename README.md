@@ -122,6 +122,11 @@ function foo() {
  ```
  sum(a)(b)(c)
  ```
+This can be achieved either by using `bind` property or using `closures`.
+
+```
+const sum 
+```
 
 this
 bind
@@ -131,9 +136,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NDQwNDMyLDExMzY0NzE2MywtNTI4ND
-QzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQs
-LTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMj
-c4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyOD
+Q0MzY0OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0
+LC0xMTQ1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5Mj
+I3ODIsMjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
 
 -->
