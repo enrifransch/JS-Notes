@@ -125,7 +125,31 @@ function foo() {
 This can be achieved either by using `bind` property or using `closures`.
 
 ```
-const sum 
+// original
+const sum = (a, b, c) => {
+console.log(a + b + c)
+}
+// currying closure
+const sumClosure = function (a) {
+	return function(b) {
+		return function (c) {
+		console.log(a + b + c)
+		}
+	}
+}
+// currying generic
+
+function curry(func) {
+	return function curried(...args) {
+		if (args.length >= func.length) {
+			return func.apply(this, args);
+		} else {
+			return function(...args2) {
+				return curried.apply(this, args.concat(args2));
+			}
+		}
+};
+}
 ```
 
 this
@@ -136,9 +160,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyOD
-Q0MzY0OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0
-LC0xMTQ1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5Mj
-I3ODIsMjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
-
+eyJoaXN0b3J5IjpbMjI3OTkyODU0LDE4NDc0NjM3MjcsMTEzNj
+Q3MTYzLC01Mjg0NDM2NDgsNzU5NDc3NzgyLC03MjE3NzIwOTEs
+LTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMj
+Y2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4
+NjMzMjY5NV19
 -->
