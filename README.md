@@ -148,7 +148,7 @@ function curry(func) {
 				return curried.apply(this, args.concat(args2));
 			}
 		}
-};
+	};
 }
 ```
 
@@ -160,9 +160,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3OTkyODU0LDE4NDc0NjM3MjcsMTEzNj
-Q3MTYzLC01Mjg0NDM2NDgsNzU5NDc3NzgyLC03MjE3NzIwOTEs
-LTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMj
-Y2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4
-NjMzMjY5NV19
+eyJoaXN0b3J5IjpbLTQzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMz
+Y0NzE2MywtNTI4NDQzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkx
+LC00Mjc4NjI4MzQsLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MD
+I2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0
+ODYzMzI2OTVdfQ==
 -->
