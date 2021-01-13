@@ -85,7 +85,7 @@ weird() // 'yes'
 - Throws error on invalid usage of `delete`.  
 
 ## Cors
-Cross-
+Cross-Origin Resource Sharing is a mechanism implemented using HTTP headers that control how a server shares it's resources when they are requested from another domain.
 ## Misc
 ### IIFE (Immediately Invoked Function Expression)
 (function() {
@@ -169,9 +169,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MTc1NjcwLC0xNTY0NjgyNTE5LC00Mz
-kyODM0NzQsMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0
-OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMT
-Q1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIs
-MjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbLTE5ODQ1NTk5NjksLTE1NjQ2ODI1MTksLT
+QzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMzY0NzE2MywtNTI4NDQz
+NjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLT
+ExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4
+MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
 -->
