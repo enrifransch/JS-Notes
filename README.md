@@ -37,9 +37,11 @@ Context variables declared using the `var` keyword or functions declared using t
 foo() // undefined
 bar() // 'bar
 oop() // ReferenceError: Cannot access 'oop' before initialization
+// Defined at run-time
 var foo = function(){ 
     return 'foo'
 }; 
+// Defined at parse time
 function bar(){ 
      return 'bar'
 };
@@ -160,9 +162,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NTE0NTQ4LC00MzkyODM0NzQsMTg0Nz
-Q2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0OCw3NTk0Nzc3ODIs
-LTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMTQ1NzAwMTA5LDExMz
-M2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyNDIzLDU0
-MjIxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbLTE1NjQ2ODI1MTksLTQzOTI4MzQ3NCwxOD
+Q3NDYzNzI3LDExMzY0NzE2MywtNTI4NDQzNjQ4LDc1OTQ3Nzc4
+MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAxMDksMT
+EzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMs
+NTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
 -->
