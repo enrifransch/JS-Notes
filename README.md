@@ -16,17 +16,22 @@ obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope (lexical environment).
 
 ```
-foo() // undefined
-bar() // 'bar
-// Defined at run-time
-var foo = function(){ 
-    return 'foo'
-}; 
-// Defined at parse time
-function bar(){ 
-     return 'bar'
-};
-
+function makeFunc(name)  {
+	let count =  0;
+	return  function  ()  {
+		count +=  1;
+		console.log(name, count);
+	}
+}
+ 
+var moz = makeFunc('Mozilla');
+moz() // 
+moz()
+moz()
+  
+var chrom = makeFunc('Chrome');
+chrom()
+chrom()
 ```
 
 ## Hoisting
@@ -162,9 +167,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ2ODI1MTksLTQzOTI4MzQ3NCwxOD
-Q3NDYzNzI3LDExMzY0NzE2MywtNTI4NDQzNjQ4LDc1OTQ3Nzc4
-MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAxMDksMT
-EzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMs
-NTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbMTM1MjkwNjU2MCwtMTU2NDY4MjUxOSwtND
+M5MjgzNDc0LDE4NDc0NjM3MjcsMTEzNjQ3MTYzLC01Mjg0NDM2
+NDgsNzU5NDc3NzgyLC03MjE3NzIwOTEsLTQyNzg2MjgzNCwtMT
+E0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgy
+LDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
 -->
