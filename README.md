@@ -84,8 +84,8 @@ weird() // 'yes'
 -Makes eval() safer. There are some differences in the way `eval()` behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an eval() statement are not created in the containing scope (they are created in the containing scope in non-strict mode, which can also be a common source of problems).
 - Throws error on invalid usage of `delete`.  
 
-## Cors
-Cross-Origin Resource Sharing is a `mechanism` implemented using `HTTP headers` that control how a server shares it's resources when they are requested from another domain. 
+## CORS
+Cross-Origin Resource Sharing is a `mechanism` implemented using `HTTP headers` that control how a server shares it's resources when they are requested from another domain.
 ## Misc
 ### IIFE (Immediately Invoked Function Expression)
 (function() {
@@ -169,9 +169,10 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDM0Mjg5LC0xNTY0NjgyNTE5LC00Mz
-kyODM0NzQsMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0
-OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMT
-Q1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIs
-MjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
+eyJoaXN0b3J5IjpbLTg0NDY4MjQ4NywtNTI0MzQyODksLTE1Nj
+Q2ODI1MTksLTQzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMzY0NzE2
+MywtNTI4NDQzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mj
+c4NjI4MzQsLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2Njgy
+LDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMz
+I2OTVdfQ==
 -->
