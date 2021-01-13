@@ -13,7 +13,7 @@ obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 ```
 
 ## Closures
-A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope (lexical environment).
+A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope (lexical environment). When the functions is instantiated its environment will remain the same, so it can be called `n` number of times with that same environment.
 
 ```
 function makeFunc(name)  {
@@ -25,13 +25,13 @@ function makeFunc(name)  {
 }
  
 var moz = makeFunc('Mozilla');
-moz() // 
-moz()
-moz()
+moz() // Mozilla 1
+moz() // Mozilla 2
+moz() // Mozilla 3
   
 var chrom = makeFunc('Chrome');
-chrom()
-chrom()
+chrom() // Chrome 1
+chrom() // Chrome 2
 ```
 
 ## Hoisting
@@ -167,9 +167,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjkwNjU2MCwtMTU2NDY4MjUxOSwtND
-M5MjgzNDc0LDE4NDc0NjM3MjcsMTEzNjQ3MTYzLC01Mjg0NDM2
-NDgsNzU5NDc3NzgyLC03MjE3NzIwOTEsLTQyNzg2MjgzNCwtMT
-E0NTcwMDEwOSwxMTMzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgy
-LDIyNTQyMjQyMyw1NDIyMTkwNzMsMTQ4NjMzMjY5NV19
+eyJoaXN0b3J5IjpbNjA3NDY5NTMyLC0xNTY0NjgyNTE5LC00Mz
+kyODM0NzQsMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0
+OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMT
+Q1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIs
+MjI1NDIyNDIzLDU0MjIxOTA3MywxNDg2MzMyNjk1XX0=
 -->
