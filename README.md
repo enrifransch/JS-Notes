@@ -13,7 +13,7 @@ obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 ```
 
 ## Closures
-A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope.
+A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope (lexical environment).
 
 ```
 foo() // undefined
@@ -160,9 +160,9 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMz
-Y0NzE2MywtNTI4NDQzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkx
-LC00Mjc4NjI4MzQsLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MD
-I2NjgyLDMyMzkyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0
-ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbMzI2NTE0NTQ4LC00MzkyODM0NzQsMTg0Nz
+Q2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0OCw3NTk0Nzc3ODIs
+LTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMTQ1NzAwMTA5LDExMz
+M2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyNDIzLDU0
+MjIxOTA3MywxNDg2MzMyNjk1XX0=
 -->
