@@ -84,6 +84,8 @@ weird() // 'yes'
 -Makes eval() safer. There are some differences in the way `eval()` behaves in strict mode and in non-strict mode. Most significantly, in strict mode, variables and functions declared inside of an eval() statement are not created in the containing scope (they are created in the containing scope in non-strict mode, which can also be a common source of problems).
 - Throws error on invalid usage of `delete`.  
 
+## Cors
+Cross-
 ## Misc
 ### IIFE (Immediately Invoked Function Expression)
 (function() {
@@ -167,7 +169,7 @@ generator
 eval
 prototype
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NDY5NTMyLC0xNTY0NjgyNTE5LC00Mz
+eyJoaXN0b3J5IjpbNDQ5MTc1NjcwLC0xNTY0NjgyNTE5LC00Mz
 kyODM0NzQsMTg0NzQ2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0
 OCw3NTk0Nzc3ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMT
 Q1NzAwMTA5LDExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIs
