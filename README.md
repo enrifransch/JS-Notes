@@ -35,7 +35,8 @@ chrom() // Chrome 2
 ```
 
 ## Hoisting
-Context variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope or `lexical scope`, the global scope.  This happens in the creation phase before the exectution phase
+Context variables declared using the `var` keyword or functions declared using the `function` keyword will have their declarations moved to the top of their scope or `lexical scope`, the global scope.  This happens in the creation phase before the exectution phase.
+Functions are `fully hoisted` as oposed to variables which are `partilly hoisted`.
 >Global scope for: Browser (`window`) and Node (`global`)
 >Declaring a variable with `let` or `const` does not add it to the global object.
 ```
@@ -161,10 +162,11 @@ function curry(func) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjcwMDg4Myw5ODIzMTE3MjcsLTg0ND
-Y4MjQ4NywtNTI0MzQyODksLTE1NjQ2ODI1MTksLTQzOTI4MzQ3
-NCwxODQ3NDYzNzI3LDExMzY0NzE2MywtNTI4NDQzNjQ4LDc1OT
-Q3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4MzQsLTExNDU3MDAx
-MDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMzkyMjc4MiwyMjU0Mj
-I0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTM4OTUyMDgsMTY5MjcwMDg4Myw5OD
+IzMTE3MjcsLTg0NDY4MjQ4NywtNTI0MzQyODksLTE1NjQ2ODI1
+MTksLTQzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMzY0NzE2MywtNT
+I4NDQzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4
+MzQsLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMz
+kyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVd
+fQ==
 -->
