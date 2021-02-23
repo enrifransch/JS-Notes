@@ -11,7 +11,7 @@ const obj = {
 }
 obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 ```
-
+`this` changes when it's called inside an object
 ```
 const a = function() {
 	console.log(this) // window
@@ -19,7 +19,7 @@ const a = function() {
 		console.log(this) //window
 		const c = {
 			hi() {
-				console.log(this) // {h
+				console.log(this) // {hi:f}
 			}
 		}
 	}
@@ -176,7 +176,7 @@ function curry(func) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODgxNjAyNCwtMTM5Mzg5NTIwOCwxNj
+eyJoaXN0b3J5IjpbLTM4MTMzMzU3MSwtMTM5Mzg5NTIwOCwxNj
 kyNzAwODgzLDk4MjMxMTcyNywtODQ0NjgyNDg3LC01MjQzNDI4
 OSwtMTU2NDY4MjUxOSwtNDM5MjgzNDc0LDE4NDc0NjM3MjcsMT
 EzNjQ3MTYzLC01Mjg0NDM2NDgsNzU5NDc3NzgyLC03MjE3NzIw
