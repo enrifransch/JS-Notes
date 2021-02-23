@@ -12,6 +12,20 @@ const obj = {
 obj.callMe() // { foo: 'bar', callMe: [Function: callMe] }
 ```
 
+```
+const a = function() {
+	console.log(this) // window
+	const b = function {
+		console.log(this) //window
+		const c = {
+			hi() {
+				console.log(this) // {h
+			}
+		}
+	}
+}
+```
+
 ## Closures
 A closure is a function defined inside another function (called the parent function), and has access to variables that are declared and defined in the parent function scope (lexical environment). When the functions is instantiated its environment will remain the same, so it can be called `n` number of times with that same environment.
 
@@ -162,11 +176,11 @@ function curry(func) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM4OTUyMDgsMTY5MjcwMDg4Myw5OD
-IzMTE3MjcsLTg0NDY4MjQ4NywtNTI0MzQyODksLTE1NjQ2ODI1
-MTksLTQzOTI4MzQ3NCwxODQ3NDYzNzI3LDExMzY0NzE2MywtNT
-I4NDQzNjQ4LDc1OTQ3Nzc4MiwtNzIxNzcyMDkxLC00Mjc4NjI4
-MzQsLTExNDU3MDAxMDksMTEzMzY0MjEzMSw2MDI2NjgyLDMyMz
-kyMjc4MiwyMjU0MjI0MjMsNTQyMjE5MDczLDE0ODYzMzI2OTVd
+eyJoaXN0b3J5IjpbMTgxODgxNjAyNCwtMTM5Mzg5NTIwOCwxNj
+kyNzAwODgzLDk4MjMxMTcyNywtODQ0NjgyNDg3LC01MjQzNDI4
+OSwtMTU2NDY4MjUxOSwtNDM5MjgzNDc0LDE4NDc0NjM3MjcsMT
+EzNjQ3MTYzLC01Mjg0NDM2NDgsNzU5NDc3NzgyLC03MjE3NzIw
+OTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEwOSwxMTMzNjQyMTMxLD
+YwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMjQyMyw1NDIyMTkwNzNd
 fQ==
 -->
