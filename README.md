@@ -138,9 +138,14 @@ function foo() {
 }
  ```
  ### Named Function Expression
-	```
-	
-	```
+```
+const foo = function bar() {
+  // can access bar() inside
+  bar();
+}
+// cannot access bar outside
+bar(); // Error 
+```
  ### Function Currying
  Currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument.
  ```
@@ -180,11 +185,11 @@ function curry(func) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzU4NTMzNywtMzgxMzMzNTcxLC0xMz
-kzODk1MjA4LDE2OTI3MDA4ODMsOTgyMzExNzI3LC04NDQ2ODI0
-ODcsLTUyNDM0Mjg5LC0xNTY0NjgyNTE5LC00MzkyODM0NzQsMT
-g0NzQ2MzcyNywxMTM2NDcxNjMsLTUyODQ0MzY0OCw3NTk0Nzc3
-ODIsLTcyMTc3MjA5MSwtNDI3ODYyODM0LC0xMTQ1NzAwMTA5LD
-ExMzM2NDIxMzEsNjAyNjY4MiwzMjM5MjI3ODIsMjI1NDIyNDIz
-XX0=
+eyJoaXN0b3J5IjpbLTEyOTgxODEwNjQsLTM4MTMzMzU3MSwtMT
+M5Mzg5NTIwOCwxNjkyNzAwODgzLDk4MjMxMTcyNywtODQ0Njgy
+NDg3LC01MjQzNDI4OSwtMTU2NDY4MjUxOSwtNDM5MjgzNDc0LD
+E4NDc0NjM3MjcsMTEzNjQ3MTYzLC01Mjg0NDM2NDgsNzU5NDc3
+NzgyLC03MjE3NzIwOTEsLTQyNzg2MjgzNCwtMTE0NTcwMDEwOS
+wxMTMzNjQyMTMxLDYwMjY2ODIsMzIzOTIyNzgyLDIyNTQyMjQy
+M119
 -->
